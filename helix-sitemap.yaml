@@ -1,0 +1,12 @@
+sitemaps:
+  example:
+    origin: https://main--mysite--baladev226.aem.live
+    default: en
+    lastmod: YYYY-MM-DD
+    languages:
+      en:
+        source: /query-index.json
+        destination: /sitemap-en.xml
+        alternate: /{path}
+        hreflang: en
+      
